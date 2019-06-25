@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="model"
+            type="technorapper.com.event.networking.model.Result" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/group_bk_color"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="fill"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/lblListHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:textSize="18dp"
+            android:paddingBottom="2dp"
+            android:text="@{model.title}"
+            android:textColor="@color/purewhite"
+
+          />
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:textSize="12dp"
+            android:paddingBottom="2dp"
+            android:text="@{model.start}"
+            android:textColor="@color/purewhite"
+
+            />
+    </LinearLayout>
+</layout>

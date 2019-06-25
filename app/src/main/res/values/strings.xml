@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Events Sample </string>
+    <string-array name="Filter">
+        <item>Date</item>
+        <item>Location</item>
+    </string-array>
+</resources>
